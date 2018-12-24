@@ -1,18 +1,18 @@
 import React from 'react';
+import Carrousel from './Carrousel';
 
-const Features = () => (
-  <div
-    style={{
-      position:'relative'
-    }}>
-
-    <div className="artist_name">
-      <div className="wrapper">
-        
+const Featured = () => {
+  return(
+    <div style={{position:'relative'}}>
+      <Carrousel/>
+      <div className="artist_name">
+        <div className="wrapper">
+          Metallica
+        </div>
       </div>
+
     </div>
+  );
+};
 
-  </div>
-);
-
-export default Features;
+export default Featured;
