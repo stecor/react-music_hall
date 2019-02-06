@@ -152,8 +152,8 @@ footer .footer_copyright {
 ======================*/
 
 .vn_wrapper {
-    display: flex;
-    padding: 170px 0px;
+  display: flex;
+  padding: 170px 0px;
 }
 
 .vn_item {
@@ -286,8 +286,9 @@ footer .footer_copyright {
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
-    font-size: 50px;
-    margin: 0;
+    font-size: 40px;
+
+    width: 100%;
 }
 
 .pricing_wrapper {
@@ -352,9 +353,168 @@ footer .footer_copyright {
     background: #2c2c2c;
     color: #ffffff;
     text-transform: uppercase;
-    width: 220px;
+
     margin: 0 auto;
     font-size: 29px;
     padding: 15px 20px;
     text-align: center;
+}
+
+@media screen and (max-width:959px){
+  .elementWrapper{
+       width:100%;
+  }
+
+  .carrousel_wrapper{
+     width:100%;
+  }
+
+  .countdown_wrapper .countdown_bottom{
+    width:85%;
+  }
+
+
+}
+
+
+
+@media screen and (max-width:640px){
+
+  header{
+    width:100%;
+    display: block;
+  }
+
+  .artist_name{
+    width:100%;
+
+  }
+
+  .artist_name .wrapper {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .center_wrapper{
+    width: 100%;
+  }
+
+
+  .elementWrapper{
+    width:100%;
+  }
+
+  .carrousel_wrapper{
+       width:100%;
+  }
+
+
+
+  .countdown_wrapper .countdown_bottom{
+    width:100%;
+  }
+
+  .countdown_wrapper .countdown_time  {
+    font-size: 35px;
+    width:100%;
+  }
+
+  .countdown_wrapper .countdown_tag{
+    font-size: 25px;
+    width:100%;
+  }
+
+  .vn_wrapper{
+    display: block;
+    padding: 170px 0px;
+  }
+
+  .vn_item{
+    padding-bottom: 100px;
+  }
+
+  .highlight_wrapper{
+    display: block;
+  }
+
+  .discount_wrapper{
+    display: block;
+  }
+
+  .pricing_wrapper{
+    display: block;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width:320px){
+
+  header .header_logo_venue{
+    font-size: 25px;
+  }
+
+  header{
+    width:100%;
+
+  }
+
+  .artist_name{
+    border: none;
+  }
+
+  .artist_name .wrapper {
+    padding: 50px 0px 50px 0px;
+    font-size: 30px;
+    border: none;
+  }
+
+  .center_wrapper{
+    width: 100%;
+  }
+
+
+  .elementWrapper{
+    width:100%;
+  }
+
+  .carrousel_wrapper{
+       width:100%;
+  }
+
+  .countdown_wrapper .countdown_bottom{
+    width:100%;
+    justify-content:center;
+  }
+
+  .countdown_wrapper .countdown_time  {
+    font-size: 20px;
+    padding-right: 25px;
+  }
+
+  .countdown_wrapper .countdown_tag{
+    font-size: 10px;
+
+  }
+
+  .vn_wrapper{
+    display: block;
+    padding: 170px 0px;
+  }
+
+  .vn_item{
+    padding-bottom: 100px;
+  }
+
+  .highlight_wrapper{
+    display: block;
+  }
+
+  .discount_wrapper{
+    display: block;
+  }
+
+  .pricing_wrapper{
+    display: block;
+    margin: auto;
+  }
 }
